@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("images/Background_copy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Tahoma;
+}
+
+/*Шапка сайта*/
+
+header {
+  height: 36px;
+  background: url("images/homework5_cr.png") repeat-x;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding: 8px 10px;
+}
+
+li a {
+  text-align: center;
+  text-decoration: none;
+  color: #60b5ed;
+  padding: 9px;
+}
+
+li a:hover {
+  background-color: #4dacdb;
+  color: #ffffff;
+}
+
+/*Окно логина*/
+
+.login {
+  margin: 0 auto;
+  width: 560px;
+  height: 613px;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+
+}
+
+.login h1 {
+  color: white;
+  font-size: 24px;
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+
+.login p {
+  color: white;
+  font-size: 11px;
+}
+
+
+form {
+  text-align: center;
+}
